@@ -1,6 +1,6 @@
 CC     = g++
 ASAN_FLAGS = -fsanitize=address -fno-omit-frame-pointer -Wno-format-security
-CFLAGS := -Wall -Werror -std=c++17 -g3
+CFLAGS := -Wall -Werror -std=c++11 -g3
 
 ARCH := $(shell uname)
 ifneq ($(ARCH),Darwin)
