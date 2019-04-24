@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <iostream>
 
 
-void main (){
+int main (){
 	std::cout<<"hello world";
 }
